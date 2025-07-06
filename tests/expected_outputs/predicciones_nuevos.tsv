@@ -1,0 +1,9 @@
+genome_id	Kingdom	Confianza_Kingdom	Phylum	Confianza_Phylum	Class	Confianza_Class	Family	Confianza_Family	Genus	Confianza_Genus	Species	Confianza_Species
+CLP1	Heunggongvirae	0.98	Uroviricota	0.98	Caudoviricetes	0.96	Steigviridae	0.14	Callevirus	0.1	Inovirus M13	0.2
+CPG1g	Heunggongvirae	1.0	Uroviricota	1.0	Caudoviricetes	1.0	Autosignataviridae	0.96	Nerthusvirus	0.21	Tertilicivirus Pf3	0.21
+Cellulophaga	Heunggongvirae	0.94	Uroviricota	0.96	Caudoviricetes	0.97	Pervagoviridae	0.15	Callevirus	0.2	Inovirus M13	0.21
+P22	Heunggongvirae	0.79	Uroviricota	0.93	Caudoviricetes	0.86	Inoviridae	0.15	Kagunavirus	0.05	Inovirus M13	0.21
+T4	Heunggongvirae	1.0	Uroviricota	1.0	Caudoviricetes	1.0	Straboviridae	1.0	Tequatrovirus	0.96	Inovirus M13	0.18
+TSP1	Heunggongvirae	0.7	Uroviricota	0.64	Caudoviricetes	0.69	Inoviridae	0.29	Haasevirus	0.12	Inovirus M13	0.22
+crp13	Heunggongvirae	0.9	Uroviricota	0.91	Caudoviricetes	0.89	Zobellviridae	0.18	Siovirus	0.12	Inovirus M13	0.22
+sio2	Heunggongvirae	0.89	Uroviricota	0.96	Caudoviricetes	0.94	Peduoviridae	0.11	Namikivirus	0.05	Inovirus M13	0.2
