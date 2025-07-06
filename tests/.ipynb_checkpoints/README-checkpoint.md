@@ -13,7 +13,7 @@ This folder contains test datasets and expected results to verify the correct fu
 
 ## Provenance of Example Genomes
 
-The genomes included in this folder are real bacteriophage sequences obtained from public databases (e.g., NCBI RefSeq, GenBank) or scientific publications. Their use in this repository is strictly limited to testing and educational purposes.
+The genomes included in this folder are real bacteriophage sequences obtained from public databases (NCBI). Their use in this repository is strictly limited to testing and educational purposes.
 
 If you plan to distribute this repository publicly, please ensure that all genomes included comply with the corresponding licenses or citation requirements.
 
