@@ -5,7 +5,7 @@
 
 # PhageTax: Automatic Taxonomic Classification of Bacteriophages
 
-PhageTax is a bioinformatics tool designed for the automated taxonomic classification of bacteriophage genomes based on functional features (PHROGs) and machine learning models.
+PhageTax is a bioinformatics tool designed for the automated taxonomic classification of bacteriophage genomes based on functional features (PHROG) and machine learning models.
 
 The tool integrates genomic, taxonomic, and functional information to generate high-confidence predictions of viral taxonomy at multiple levels, from kingdom to species.
 
