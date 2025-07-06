@@ -43,7 +43,7 @@ phagetax/
 
 ## ⚙️ **Requirements**
 
-- Python 3.10
+- Python 3.9
 - `pandas`, `numpy`, `scikit-learn`, `tqdm`
 - [Pharokka](https://github.com/gbouras13/pharokka) installed and configured in your system
 
