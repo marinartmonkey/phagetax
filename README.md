@@ -56,6 +56,12 @@ conda activate phagetax-env
 
 ---
 
+## 📥 **Pre-trained Models**
+
+The trained machine learning models required by PhageTax are available for download [here](https://drive.google.com/drive/folders/1rFWZPoAyeNuwfWApHkQhflP-UhJpDtPp?usp=sharing)
+
+Once downloaded, place the model files inside the `models/` folder of the repository before running taxonomic predictions.
+
 ## 📦 **Usage Example**
 
 ### 1. Place your phage genomes in `entrada_genomas/`:
@@ -101,10 +107,10 @@ This project is distributed under the GPLv3 license.
 
 ## 🧬 **Credits**
 
-Developed by Marina García Cervera  
-Supervised by [Name of Supervisor, optional]  
+Developed by Marina García Cervera  (m.garciacervera@um.es)
+Supervised by Antonio Sánchez Amat (antonio@um.es) and Jesualdo Tomás Fernández Breis (jfernand@um.es)
 
-PhageTax was created as part of a Master's Thesis in Bioinformatics, integrating open-source tools and scientific resources.
+PhageTax was created as part of a Master's Thesis in Bioinformatics (University of Murcia), integrating open-source tools and scientific resources.
 
 ---
 
