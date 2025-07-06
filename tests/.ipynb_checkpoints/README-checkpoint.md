@@ -2,14 +2,6 @@
 
 This folder contains test datasets and expected results to verify the correct functioning of the PhageTax pipeline.
 
-## Structure
-
-tests/
-├── entrada_genomas/ # Real bacteriophage genome sequences for testing
-├── expected_outputs/ # Optional: Example outputs for result comparison
-└── README.md # This file
-
-
 ## Description
 
 - **entrada_genomas/**: Contains real bacteriophage genome sequences in FASTA format. These genomes are provided for testing and validation purposes only.
