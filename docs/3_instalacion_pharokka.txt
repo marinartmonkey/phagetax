@@ -1,0 +1,50 @@
+#instalación de pharokka 
+
+conda install -c bioconda -c conda-forge mamba
+conda activate pharokka-env 
+(pharokka-env) [alumno08@eck fase 2]$ mkdir -p "/home/alumno08/TFM/fase 2/pharokka/databases"                                                         
+install_databases.py -o /home/alumno08/miniconda3/envs/pharokka-env/bin/databases 
+
+#!/bin/bash
+
+# Ruta de entrada y salida
+INPUT_DIR="/home/alumno08/TFM/fase 2/genomas_fagos"
+OUTPUT_DIR="/home/alumno08/TFM/fase 2/pharokka_out"
+
+# Crear directorio de salida si no existe
+mkdir -p "$OUTPUT_DIR"
+
+# Iterar sobre cada archivo FASTA
+for file in "$INPUT_DIR"/*.fasta; do
+    base=$(basename "$file" .fasta)
+    echo "🧬 Anotando $base..."
+    
+    # Ejecutar Pharokka sin necesidad de -d (usa base por defecto en el entorno)
+    pharokka -i "$file" -o "$OUTPUT_DIR/$base" -t 4
+done
+
+echo "✅ Anotación completa. Resultados guardados en $OUTPUT_DIR."
+
+(base) [alumno08@eck fase 2]$ nano anotar_fagos.sbatch
+(base) [alumno08@eck fase 2]$ sbatch anotar_fagos.sbatch
+mkdir -p logs
+
+#!/bin/bash
+#SBATCH --job-name=pharokka_fagos
+#SBATCH --output=logs/pharokka_%j.out
+#SBATCH --error=logs/pharokka_%j.err
+#SBATCH --time=04:00:00
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=8G
+#SBATCH --partition=eck-q  # ← Cambia si estás en otra cola
+
+# Cargar entorno Conda
+source ~/.bashrc
+conda activate pharokka-env
+
+# Ejecutar el script de anotación
+bash /home/alumno08/TFM/fase\ 2/pharokka/anotar_fagos.sh
+
+
+
+
