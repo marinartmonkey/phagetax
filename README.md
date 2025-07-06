@@ -108,6 +108,7 @@ This project is distributed under the GPLv3 license.
 ## 🧬 **Credits**
 
 Developed by Marina García Cervera  (m.garciacervera@um.es)
+
 Supervised by Antonio Sánchez Amat (antonio@um.es) and Jesualdo Tomás Fernández Breis (jfernand@um.es)
 
 PhageTax was created as part of a Master's Thesis in Bioinformatics (University of Murcia), integrating open-source tools and scientific resources.
