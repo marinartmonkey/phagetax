@@ -35,7 +35,6 @@ phagetax/
 ├── pharokka_out/           # Output folder for Pharokka annotations
 ├── tests/                  # Test dataset with example genomes
 ├── docs/                   # Development notebooks and documentation
-├── requirements.txt        # Python dependencies
 ├── LICENSE
 └── README.md               # This file
 ```
