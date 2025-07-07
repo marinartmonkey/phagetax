@@ -29,13 +29,11 @@ The tool integrates genomic, taxonomic, and functional information to generate h
 phagetax/
 ├── phagetax.py             # Main executable script .py
 ├── phagetax.ipynb          # Main executable script .ipynb
-├── models/                 # Pre-trained machine learning models
 ├── phrogs_info/            # PHROG specificity and characteristic lists
-├── entrada_genomas/        # Input folder for genome FASTA files
-├── pharokka_out/           # Output folder for Pharokka annotations
 ├── tests/                  # Test dataset with example genomes
 ├── docs/                   # Development notebooks and documentation
 ├── LICENSE
+├── AUTHORS
 └── README.md               # This file
 ```
 
