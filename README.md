@@ -27,7 +27,8 @@ The tool integrates genomic, taxonomic, and functional information to generate h
 
 ```
 phagetax/
-├── phagetax.py             # Main executable script
+├── phagetax.py             # Main executable script .py
+├── phagetax.ipynb          # Main executable script .ipynb
 ├── models/                 # Pre-trained machine learning models
 ├── phrogs_info/            # PHROG specificity and characteristic lists
 ├── entrada_genomas/        # Input folder for genome FASTA files
@@ -55,6 +56,20 @@ conda activate phagetax-env
 ```
 
 ---
+
+## 🖥️ **How to Use PhageTax**
+
+PhageTax can be used in two alternative ways, depending on user preference:
+
+✅ **1. Using the Python script (`phagetax.py`)**
+
+This is the recommended option for advanced users or automated workflows.
+
+✅ **2. Using the Jupyter notebook (`phagetax.ipynb`)**
+
+For a more interactive and visual experience, you can follow the complete workflow using the notebook. This notebook integrates all the steps of the pipeline and allows you to visualize intermediate results along the process.
+
+Before running, make sure your folder structure follows the instructions in this README.
 
 ## 📥 **Pre-trained Models**
 
