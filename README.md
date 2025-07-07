@@ -34,7 +34,7 @@ phagetax/
 ├── docs/                   # Development notebooks and documentation
 ├── LICENSE
 ├── AUTHORS
-└── README.md               # This file
+└── README.md              
 ```
 
 ---
