@@ -69,6 +69,8 @@ This is the recommended option for advanced users or automated workflows.
 
 For a more interactive and visual experience, you can follow the complete workflow using the notebook. This notebook integrates all the steps of the pipeline and allows you to visualize intermediate results along the process.
 
+Although PhageTax can be executed entirely via the `phagetax.py` script for automated workflows, we highly recommend using the provided Jupyter notebook
+
 Before running, make sure your folder structure follows the instructions in this README.
 
 ## 📥 **Pre-trained Models**
