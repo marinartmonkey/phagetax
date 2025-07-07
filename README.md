@@ -32,6 +32,7 @@ phagetax/
 ├── phrogs_info/            # PHROG specificity and characteristic lists
 ├── tests/                  # Test dataset with example genomes
 ├── docs/                   # Development notebooks and documentation
+├── infographic.png
 ├── LICENSE
 ├── AUTHORS
 └── README.md              
