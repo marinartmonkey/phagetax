@@ -15,6 +15,7 @@ This folder contains technical documentation, scripts, and resources used during
 | `10_modelo_final.ipynb`                | Training of the final machine learning models by taxonomic level. |
 | `11_evaluacion.ipynb`                  | Evaluation and performance assessment of the final models.        |
 | `phagetax_logo.png`                    | Official logo of the PhageTax tool.                               |
+| `Memoria_MarinaGC`                     | The technical and scientific report (Master’s thesis).            |
 
 ## Notes
 
