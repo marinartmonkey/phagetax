@@ -89,7 +89,7 @@ entrada_genomas/
 └── ...
 ```
 
-### 2A. Run the complete pipeline (phagetax.py):
+### 2A. Run the complete pipeline (`phagetax.py`):
 
 ```bash
 python phagetax.py annotate_batch
@@ -100,7 +100,7 @@ python phagetax.py predict
 python phagetax.py phrog_report
 ```
 
-### 2B. Using the Jupyter Notebook (phagetax.ipynb) – Recommended
+### 2B. Using the Jupyter Notebook (`phagetax.ipynb`) – *Recommended*
 
 This notebook walks you through the full workflow, from genome annotation to taxonomic prediction. It allows you to visualize intermediate results, debug easily, and better understand how the tool works internally.
 
