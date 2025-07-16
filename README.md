@@ -30,8 +30,9 @@ phagetax/
 ├── phagetax.py             # Main executable script .py
 ├── phagetax.ipynb          # Main executable script .ipynb
 ├── phrogs_info/            # PHROG specificity and characteristic lists
-├── tests/                  # Test dataset with example genomes
+├── tests/                  # Test dataset and results with example genomes
 ├── docs/                   # Development notebooks and documentation
+├── models/                 # Pre-trained machine learning models 
 ├── infographic.png
 ├── LICENSE
 ├── AUTHORS
@@ -67,7 +68,7 @@ This is the recommended option for advanced users or automated workflows.
 
 For a more interactive and visual experience, you can follow the complete workflow using the notebook. This notebook integrates all the steps of the pipeline and allows you to visualize intermediate results along the process.
 
-Although PhageTax can be executed entirely via the `phagetax.py` script for automated workflows, we highly recommend using the provided Jupyter notebook
+Although PhageTax can be executed entirely via the `phagetax.py` script for automated workflows, we highly recommend using the provided Jupyter notebook.
 
 Before running, make sure your folder structure follows the instructions in this README.
 
@@ -88,7 +89,7 @@ entrada_genomas/
 └── ...
 ```
 
-### 2. Run the complete pipeline:
+### 2A. Run the complete pipeline (phagetax.py):
 
 ```bash
 python phagetax.py annotate_batch
@@ -98,6 +99,12 @@ python phagetax.py final_matrix
 python phagetax.py predict
 python phagetax.py phrog_report
 ```
+
+### 2B. Using the Jupyter Notebook (phagetax.ipynb) – Recommended
+
+This notebook walks you through the full workflow, from genome annotation to taxonomic prediction. It allows you to visualize intermediate results, debug easily, and better understand how the tool works internally.
+
+📁 Just ensure your folder structure is correctly set up and that you have downloaded the pre-trained models before running the notebook.
 
 ### 3. Review outputs such as:
 
